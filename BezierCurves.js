@@ -43,7 +43,7 @@ function draw() {
   textSize(12);
   text("Frequency", 5, height-20);
   text(fSlider.value()/10, 200, height-20);
-  text("Show intermediary lines", 250, height-20);
+  text("Show intermediate lines", 250, height-20);
 }
 
 function calculatePointAtT(t, draw=false){
